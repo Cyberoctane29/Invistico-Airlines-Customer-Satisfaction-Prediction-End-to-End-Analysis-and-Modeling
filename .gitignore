@@ -3,3 +3,6 @@ venv/
 
 # Ignore Data folder
 Data/
+
+# Ignore Image folder
+Images/
