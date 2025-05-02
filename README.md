@@ -18,15 +18,32 @@ The **Invistico Airlines Customer Satisfaction Analysis** project aims to:
 
 ## **Dataset Structure**
 
-The dataset contains **129,880 passenger feedback records** from **Invistico Airlines**, each representing a single flight experience review. Key features include:
+The dataset contains **129,880 passenger records** from **Invistico Airlines**, each representing a unique customer and their flight experience details. Key features include:
 
-- **satisfaction**: Target variable indicating if a passenger was satisfied (Yes) or dissatisfied (No)  
-- **Service Ratings**: Scores (1–5) for seat comfort, inflight entertainment, online booking, and other amenities  
-- **Operational Metrics**: Flight distance (miles), departure and arrival delays (minutes)  
-- **Passenger Demographics**: Age, travel purpose (Business/Personal), and class (Eco, Eco Plus, Business)  
-- **Customer Type**: Categorization as loyal or disloyal based on previous travel history  
+- **satisfaction**: Customer’s overall satisfaction with their flight experience (categorical: *satisfied*, *dissatisfied*)  
+- **Customer Type**: Indicates whether the customer is a *Loyal Customer* or *Disloyal Customer* (categorical)  
+- **Age**: Passenger’s age (continuous integer)  
+- **Type of Travel**: Purpose of travel, either *Personal Travel* or *Business Travel* (categorical)  
+- **Class**: Travel class booked by the passenger (categorical: *Eco*, *Business*, *First Class*)  
+- **Flight Distance**: Distance of the flight in miles (continuous integer)  
+- **Seat comfort**: Rating of seat comfort (ordinal integer: 1–5)  
+- **Departure/Arrival time convenient**: Rating of the convenience of flight times (ordinal integer: 1–5)  
+- **Food and drink**: Rating of food and drink service (ordinal integer: 1–5)  
+- **Gate location**: Rating of the boarding gate location (ordinal integer: 1–5)  
+- **Inflight wifi service**: Rating of in-flight wifi quality (ordinal integer: 1–5)  
+- **Inflight entertainment**: Rating of available in-flight entertainment options (ordinal integer: 1–5)  
+- **Online support**: Rating of online customer support (ordinal integer: 1–5)  
+- **Ease of Online booking**: Rating of the ease of booking flights online (ordinal integer: 1–5)  
+- **On-board service**: Rating of on-board services (ordinal integer: 1–5)  
+- **Leg room service**: Rating of leg room comfort (ordinal integer: 1–5)  
+- **Baggage handling**: Rating of baggage service quality (ordinal integer: 1–5)  
+- **Checkin service**: Rating of check-in service experience (ordinal integer: 1–5)  
+- **Cleanliness**: Rating of overall cleanliness (ordinal integer: 1–5)  
+- **Online boarding**: Rating of online boarding process (ordinal integer: 1–5)  
+- **Departure Delay in Minutes**: Number of minutes the flight was delayed at departure (continuous integer)  
+- **Arrival Delay in Minutes**: Number of minutes the flight was delayed upon arrival (continuous float)  
 
-This dataset enables in-depth analysis of customer sentiment patterns and development of predictive models to support customer satisfaction initiatives.
+This dataset provides a detailed view of customer experiences across multiple service dimensions, serving as a solid foundation for analyzing passenger satisfaction patterns and building predictive models to identify key factors influencing customer satisfaction for **Invistico Airlines**.
 
 ---
 
