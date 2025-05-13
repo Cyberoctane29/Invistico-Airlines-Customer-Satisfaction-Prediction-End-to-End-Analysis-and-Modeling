@@ -179,7 +179,7 @@ Hyperparameter tuning via **GridSearchCV** with a stratified 75/25 train-test sp
 - Integrate satisfaction predictions into **CRM systems for real-time alerts**  
 - Enhance features by incorporating **NLP analysis of open-ended feedback**  
 - Link predictive models to **dynamic pricing and loyalty program incentives**  
-- Develop **crew performance analytics** to correlate staff deployment with satisfaction trends  
+- Develop **crew performance analytics** to correlate staff deployment with satisfaction trends 
 
 ---
 
@@ -187,7 +187,6 @@ Hyperparameter tuning via **GridSearchCV** with a stratified 75/25 train-test sp
 
 - **Python**: pandas, NumPy, scikit-learn, XGBoost  
 - **Visualization**: Matplotlib, Seaborn, Plotly  
-- **Model Evaluation**: Precision-Recall, ROC curves, SHAP values  
-- **Methodology**: CRISP-DM framework  
+- **Model Evaluation**: Precision-Recall, ROC curves 
 
 This solution equips **Invistico Airlines** with strategic, data-driven insights to proactively manage customer satisfaction, enabling targeted service enhancements and operational efficiency improvements in a competitive aviation market.
