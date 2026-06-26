@@ -1,4 +1,4 @@
-# **Invistico Airlines - Predicting Customer Satisfaction and Enhancing Service Delivery: Analysis and Modeling**
+# **Invistico Airlines - Predicting Customer Satisfaction and Enhancing Service Delivery: End-to-End Analysis and Modeling**
 
 This project investigates how factors such as inflight entertainment, seat comfort, service quality, and operational delays influence customer satisfaction at **Invistico Airlines**, a global commercial carrier. By analyzing relationships between these variables and satisfaction outcomes, I built predictive models including logistic regression, decision trees, random forests, and XGBoost to forecast passenger sentiment and uncover service improvement opportunities. The objective is to deliver data-driven insights that optimize customer experience management and operational efficiency. The project uses Python libraries like pandas, scikit-learn, XGBoost, and Matplotlib for data analysis, modeling, and visualization.
 
